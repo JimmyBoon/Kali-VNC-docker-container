@@ -17,5 +17,5 @@ docker run -ti -p 5900:5900 kali:v1 bash
 
 tightvncserver :0 -geometry 1280x800 -depth 16 -pixelformat rgb565
 
-7. Using Real VNC viewer, access your Kali container through the ip address of the computer it is running on and port 5900.
+7. Using Real VNC viewer, access your Kali container through the ip address of the computer it is running on and port 5900, with the password you set in the password.txt file.
 
