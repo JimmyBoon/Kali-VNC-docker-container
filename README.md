@@ -7,7 +7,7 @@ Instructions:
 3. Edit the Dockerfile to choose a install package if required (can be done manually after the container is running).
 4. Build the image from the Dockerfile with this command: 
 
-docker run -ti -p 5900:5900 kali:v1 bash
+docker build -t kali:v1 .
 
 5. Run the docker image and enter container:
 
